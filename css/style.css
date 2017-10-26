@@ -6,13 +6,14 @@ body {
     height: 100%;
     /*overflow: hidden;*/ 
    padding-top: 70px;
-   
-    background-image: url("../img/home2.jpg"); 
+   background: #e9ebee;
+
+   /* background-image: url("../img/home2.jpg"); 
      background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
+*/
 
 
 }
@@ -194,9 +195,9 @@ p {
 
 #for-question-ask
 {
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     height: 50%;
-    padding-left: 22%;
+    padding-left: 10%;
 }
 
 textarea {
@@ -218,6 +219,7 @@ textarea {
 
 textarea:focus {
     height: 200%;
+    transition: height 0.4s ease-in-out;
 }
 
 
