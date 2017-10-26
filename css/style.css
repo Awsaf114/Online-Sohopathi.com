@@ -1,0 +1,274 @@
+
+
+/* navigation bar   */
+html,
+body {
+    height: 100%;
+    /*overflow: hidden;*/ 
+   padding-top: 70px;
+   
+    background-image: url("../img/home2.jpg"); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+
+
+
+.content{
+    margin: 3px;
+    margin-top:10px;
+}
+
+.profile-img{
+   margin-top: 20px;
+   transform: translateX(-20em);
+}
+
+.question-div{
+    width:700px;
+    margin: 40px;
+  
+}
+
+.question-item{
+    width: 100%;
+    height: :400px;
+    padding:20px;
+    margin-left: 27%;
+    text-align: center;
+    background: white;
+    box-shadow: 4px 4px 3px grey;
+
+}
+
+.question{
+    top: 15px;
+    margin:3px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.name{
+    margin: 3px;
+    padding: 3px;
+    transform: translatex(-20em);
+
+}
+
+.feed{
+    margin-top: 20px;
+}
+
+#navigation
+{
+  margin-left: 20%; 
+}
+
+
+.navbar{
+    
+   
+    
+}
+
+
+.top-nav{
+    background: #B8B894;
+ 
+        
+}
+/*  for right and left spaces in the navigation bar &buttons  */
+.nav-wrapper{
+  /*  padding:0 85px;*/
+}
+
+.navbar-nav{
+    float:right;
+}
+
+.navbar-brand
+{
+ 
+}
+ 
+
+.navbar-nav>li>a{
+    
+    color:#fff;
+    padding-left: 20px;
+    font-weight: 700;
+    
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus{
+  background-color: dimgray;
+    color:blueviolet;
+}
+
+
+.search-content{  
+    height: 50px;
+    padding-left:22%;
+}
+input[type=text]{
+    width: 60%;
+    height:100%;
+   border-width: 2px;
+ 
+}
+/*button action*/
+.btn-general-black{
+    
+    border-width: 1px;
+    border-radius: 0;
+    padding: 12px 10px 12px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.btn-black{
+
+    color: #DAA520;
+    
+}
+.btn-black:hover, .btn-white:focus{
+    background-color:#F0E68C; 
+    color:#000;
+}
+
+/*ending of navigation  */
+
+
+/*
+          Question answer part              */
+
+
+/********************************************
+default values:
+    font family       : Roboto Condensed 
+    greenish blue     : #34c6d3 (buttons,icons,links,lines,backgrouds)
+    steel gray        : #41464b (heading)
+    blue bayoxe       : #64707b (paragraphs)
+    white             : #fff (text with black background)
+    black             : #000
+    
+34c6d3
+362828
+********************************************/
+
+
+
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/***************************************************************
+        NAV_BAR
+*****************************************************************/
+
+#navigation_bar {
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+/***************************************************************
+        NAV_BAR
+*****************************************************************/
+
+/***************************************************************
+        ASK A QU100ION
+*****************************************************************/
+#section_for_asking_a_question{
+    height: 260px;
+}
+
+#for-question-ask
+{
+    padding-top: 20px;
+    height: 50%;
+    padding-left: 22%;
+}
+
+textarea {
+    width: 60%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 10px;
+    resize: none;
+    outline: none;
+}
+
+.dropdown
+{
+    margin-left: 38.5%;
+}
+
+textarea:focus {
+    height: 200%;
+}
+
+
+#dropdown_button_for_subject {
+    width: 1px;
+    background-color: #fff;
+
+}
+
+.dropdown-toggle {
+    background-color: #34609A;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+
+#button_image {
+    margin-left: 0;
+}
+
+#button_ask {
+    margin-left: 0;
+}
+
+.btn-general {
+
+    border-width: 2px;
+    border-radius: 0;
+    padding: 8px 12px 7px 12px;
+    font-size: 14px;
+    font-weight: 40;
+    background-color: #34609A;
+    border-radius: 6px;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-while:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+/***************************************************************
+        ASK A QUESTION
+*****************************************************************/
+
