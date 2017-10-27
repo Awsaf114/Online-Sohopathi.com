@@ -20,11 +20,71 @@
 
 </head>
 
-<body>
+<body class="loaded">
+
+    <a href="#cd-nav" class="cd-nav-trigger">Menu 
+        <span class="cd-nav-icon"></span>
+
+        <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+            <circle fill="transparent" stroke="#90D4C5" stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+        </svg>
+    </a>
+        
+    <div id="cd-nav" class="cd-nav">
+        <div class="cd-navigation-wrapper">
+            <div class="cd-half-block">
+                    <h1>Ask a Question</h1>
+            <section id="section_for_asking_a_question">
+                <div id = "for-question-ask">
+                <textarea placeholder="Ask a question" cols="30" rows="5" data-toggle="collapse" data-target="#demo"></textarea>
+                <!-- <div class="dropdown" id="demo" class="collapse">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Subject
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu" id="dropdown_button_for_subject">
+                        <li><a href="#">Physics</a></li>
+                        <li><a href="#">Chemistry</a></li>
+                        <li><a href="#">Math</a></li>
+                        <li><a href="#">Biology</a></li>
+                        <li><a href="#">Others</a></li>
+                    </ul>
+                    <button type="button" class="btn-sm btn-general btn-white" id="button_image">Add Image </button>
+                    <button type="button" class="btn-sm btn-general btn-white" id="button_ask">Ask</button>
+                </div> -->
+                </div>
+            </section>
+
+<!--                 <nav>
+                    <ul class="cd-primary-nav">
+                        <li><a href="index.html" class="selected">Showcase</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+ -->
+             </div>
+            <div class="cd-half-block">
+            <!--     <address>
+                    <ul class="cd-contact-info">
+                        <li><a href="mailto:info@myemail.co">info@myemail.co</a></li>
+                        <li>0244-12345678</li>
+                    </ul>
+                    <ul class="cd-contact-socials">
+                        <li><a href="#0">Instagram</a></li>   
+                        <li><a href="#0">Behance</a></li>   
+                        <li><a href="#0">Dribbble</a></li>    
+                    </ul>
+                </address> -->
+            </div> 
+        </div>
+    </div> 
 
     <section id="sidebar">
-    <input type="text" name="search" placeholder="Search" class="Search">
         <div class="inner">
+            <span class="icon"><i class="fa fa-search"></i></span>
+             <input type="text" name="search" placeholder="Search" class="Search"> 
+            
             <nav>
                 <ul>
                     <li><a href="#intro">Home</a></li>
@@ -43,8 +103,8 @@
             <div class="inner">
             <section id="section_for_asking_a_question">
                 <div id = "for-question-ask">
-                <textarea placeholder="Ask a question" cols="30" rows="5"></textarea>
-                <div class="dropdown">
+                <textarea placeholder="Ask a question" cols="30" rows="5" data-toggle="collapse" data-target="#demo"></textarea>
+                <!-- <div class="dropdown" id="demo" class="collapse">
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Subject
                     <span class="caret"></span></button>
                     <ul class="dropdown-menu" id="dropdown_button_for_subject">
@@ -56,7 +116,7 @@
                     </ul>
                     <button type="button" class="btn-sm btn-general btn-white" id="button_image">Add Image </button>
                     <button type="button" class="btn-sm btn-general btn-white" id="button_ask">Ask</button>
-                </div>
+                </div> -->
                 </div>
             </section>
 
@@ -324,13 +384,7 @@
     </section>
          -->
 
-
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/wow/wow.min.js"></script>
-    <script src="js/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
-
-    <!-- Scripts -->
+         <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
@@ -339,6 +393,14 @@
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
 
+
+
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    
 
 
 </body>
