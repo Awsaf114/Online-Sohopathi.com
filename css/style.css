@@ -1,29 +1,40 @@
+/*  Question Modal  */
 
+.modal-header {
+    background-color: #312450;
+ }
+ .modal-body {
+    background-color: #312450;
+    
+ }
+.modal-footer {
+    background-color: #312450;
+    padding:0;
+    border:none;
+ } 
 
-/* navigation bar   */
-html,
-body {
-    height: 100%;
-    /*overflow: hidden;*/ 
-   padding-top: 70px;
-   background: #e9ebee;
+ .submit-box{
+    margin-left: 5em;
+    margin-top: 2em;
+ }
 
-   /* background-image: url("../img/home2.jpg"); 
-     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-*/
-
-
-}
-
-
+ .Send-Notifications{
+    margin-left: 1em;
+ }
+/***************************************************************
+        News Feed Cards
+*****************************************************************/
 
 
 .content{
     margin: 3px;
     margin-top:10px;
+}
+
+.focused{
+    height: 100vh;
+    width: 100%;
+    background: cyan;
 }
 
 .profile-img{
@@ -66,112 +77,6 @@ body {
     margin-top: 20px;
 }
 
-#navigation
-{
-  margin-left: 20%; 
-}
-
-
-.navbar{
-    
-   
-    
-}
-
-
-.top-nav{
-    background: #B8B894;
- 
-        
-}
-/*  for right and left spaces in the navigation bar &buttons  */
-.nav-wrapper{
-  /*  padding:0 85px;*/
-}
-
-.navbar-nav{
-    float:right;
-}
-
-.navbar-brand
-{
- 
-}
- 
-
-.navbar-nav>li>a{
-    
-    color:#fff;
-    padding-left: 20px;
-    font-weight: 700;
-    
-}
-
-.navbar-nav>li>a:hover, .navbar-nav>li>a:focus{
-  background-color: dimgray;
-    color:blueviolet;
-}
-
-
-.search-content{  
-    height: 50px;
-    padding-left:22%;
-}
-/*input[type=text]{
-    width: 60%;
-    height:100%;
-   border-width: 2px;
- 
-}
-*//*button action*/
-.btn-general-black{
-    
-    border-width: 1px;
-    border-radius: 0;
-    padding: 12px 10px 12px 10px;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    
-}
-
-.btn-black{
-
-    color: #DAA520;
-    
-}
-.btn-black:hover, .btn-white:focus{
-    background-color:#F0E68C; 
-    color:#000;
-}
-
-/*ending of navigation  */
-
-
-/*
-          Question answer part              */
-
-
-/********************************************
-default values:
-    font family       : Roboto Condensed 
-    greenish blue     : #34c6d3 (buttons,icons,links,lines,backgrouds)
-    steel gray        : #41464b (heading)
-    blue bayoxe       : #64707b (paragraphs)
-    white             : #fff (text with black background)
-    black             : #000
-    
-34c6d3
-362828
-********************************************/
-
-
-
-p {
-    color: #64707b;
-    font-size: 16px;
-    font-weight: 300;
-}
 
 /***************************************************************
         NAV_BAR
@@ -462,13 +367,13 @@ p {
 /***************************************************************
         ASK A QU100ION
 *****************************************************************/
-#section_for_asking_a_question{
+/*#section_for_asking_a_question{
     height: 260px;
 }
 
 #for-question-ask
 {
-    /*padding-top: 20px;*/
+    padding-top: 20px;
     height: 50%;
     padding-left: 10%;
 }
@@ -489,6 +394,6 @@ textarea {
 textarea:focus {
     height: 200%;
 }
-
+*/
 
 

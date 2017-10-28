@@ -96,14 +96,23 @@
         </div>
     </section>
 
+
+
     <div id="wrapper">
 
     <!-- Intro -->
         <section id="intro" class="wrapper style1 fullscreen fade-up">
             <div class="inner">
-            <section id="section_for_asking_a_question">
-                <div id = "for-question-ask">
-                <textarea placeholder="Ask a question" cols="30" rows="5" data-toggle="collapse" data-target="#demo"></textarea>
+            <!-- <section id="section_for_asking_a_question">
+               <div id = "for-question-ask">
+              <textarea placeholder="Ask a question" cols="30" rows="5" class="Ask" data-toggle="collapse" data-target="#demo"></textarea>
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+                  Subscribe Modal
+                </button> -->
+
+                <textarea placeholder="Ask a question" cols="30" rows="5" class="Ask" data-toggle="modal" data-target="#myModal"></textarea>
+
+
                 <!-- <div class="dropdown" id="demo" class="collapse">
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Subject
                     <span class="caret"></span></button>
@@ -116,14 +125,67 @@
                     </ul>
                     <button type="button" class="btn-sm btn-general btn-white" id="button_image">Add Image </button>
                     <button type="button" class="btn-sm btn-general btn-white" id="button_ask">Ask</button>
-                </div> -->
+                </div> 
                 </div>
             </section>
-
+            -->
 
                 
             </div>
         </section>
+
+<!-- Question Modal  -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+        <!-- <span aria-hidden="true" data-dismiss="modal" >×</span> -->
+      <div class="modal-body">
+
+      <section>
+        <h2 class="text-center">Ask a Question</h2>
+        <form method="post" action="#">
+            <div class="row uniform">
+                <div class="12u$">
+                    <textarea name="demo-message" id="demo-message" placeholder="Ask a Question" rows="15"></textarea>
+                </div>
+                
+                <div class="12u$">
+                    <div class="select-wrapper">
+                        <select name="demo-category" id="demo-category">
+                            <option value="">- Category -</option>
+                            <option value="1">Physics</option>
+                            <option value="1">Chemistry</option>
+                            <option value="1">Maths</option>
+                            <option value="1">Biology</option>
+                            <option value="1">Others</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="Send-Notifications">
+                    <input type="checkbox" id="demo-human" name="demo-human" checked>
+                    <label for="demo-human">Send Notifications</label>
+                </div>
+                <div class="submit-box">
+                    <ul class="actions">
+                        <li><a href="#" class="button icon fa-upload">Image</a></li>
+                        <li><a href="#" type="reset" value="Reset" data-dismiss="modal" class="button">Cancel</a></li>
+                        <li><a href="#" type="submit" value="Send Message" data-dismiss="modal" class="button special">Submit</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </form>
+    </section>
+
+    </div>    
+      <div class="modal-footer">
+        </div>
+    </div>
+  </div>
+</div>
+
+
 
     <!-- One -->
     <section id="one" class="wrapper style2 spotlights">

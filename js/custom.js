@@ -13,6 +13,26 @@
         }
     });
 
+    
+    $( "textarea.Ask" ).focusin(function() {
+        // $(this).parent('div').parent('div').css('background','white');
+        
+        // $(this).parent('div').addClass('focused');
+
+        console.log("Ask selected");
+    }).focusout(function(){
+
+        // $(this).parent('div').removeClass('focused');
+        // $(this).parent('div').css('background','transparent');
+    });
+
+
+    // $('textarea').focus(
+    // function(){
+    //     $(this).parent('div').css('background','white');
+    // });
+
+
 
 // jQuery(document).ready(function($){
 // 	var isLateralNavAnimating = false;
