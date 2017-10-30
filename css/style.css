@@ -20,6 +20,7 @@
 
  .Send-Notifications{
     margin-left: 1em;
+    margin-top: 0.5em;
  }
 /***************************************************************
         News Feed Cards
@@ -391,9 +392,17 @@ textarea {
     
 }
 
+*/
+
+/*textarea{
+    overflow: hidden;
+}
 textarea:focus {
-    height: 200%;
+    height: 30vh;
 }
 */
+
+
+
 
 
