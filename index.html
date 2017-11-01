@@ -128,6 +128,9 @@
                     <textarea name="demo-message" id="demo-message" placeholder="Ask a Question" rows="15"></textarea>
                     </div>
                 </div>
+                <div class="preview" id="img-grid" style="display: inline-block;">
+                    <!-- <img src="" id="image-preview" > -->
+                </div>
                 
                 <div class="12u$">
                     <div class="select-wrapper">
@@ -147,7 +150,7 @@
                 </div>
                 <div class="submit-box">
                     <ul class="actions">
-                        <li><a href="#" class="button icon fa-upload">Image</a></li>
+                        <li><a href="#" onclick="document.getElementById('image-picker').click();" class="button icon fa-upload">Image<input type="file" id="image-picker" accept="image/*" style="visibility: hidden; display: none;" name="" multiple></a></li>
                         <li><a href="#" type="reset" value="Reset" data-dismiss="modal" class="button">Cancel</a></li>
                         <li><a href="#" type="submit" value="Send Message" data-dismiss="modal" class="button special">Submit</a></li>
                     </ul>

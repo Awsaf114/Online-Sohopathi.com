@@ -35,6 +35,56 @@ var l = areas.length;while (l--) {
  makeExpandingArea(areas[l]);
 }
 
+
+
+// image Picker
+    var preview = document.querySelector(".preview");
+
+$("#image-picker").change(function (event) {
+    console.log("Clicked");
+    readURL(this);
+});
+
+function readURL(input) {
+
+    var curFiles = input.files;
+  
+    console.log(curFiles);
+    if (curFiles!= 0) {
+        var list = document.createElement("ul");
+        preview.appendChild(list);
+        for (var i = 0; i < curFiles.length; i++) {
+          var listItem = document.createElement("li");
+          var para = document.createElement("p");
+              para.textContent = "File name " + curFiles[i].name + ".";
+        var image = document.createElement("img");
+        
+        image.src = window.URL.createObjectURL(curFiles[i]);
+        
+        image.style.cssText = 'height:90px; width:90px';
+
+        listItem.appendChild(image);
+        listItem.appendChild(para);
+        list.appendChild(listItem);
+
+        }
+
+    }
+
+    // if (input.files && input.files[0]) {
+    //     var reader = new FileReader();
+
+    //     reader.onload = function (e) {
+    //         $('#image-preview').attr('src', e.target.result);
+    //     }
+
+    //     reader.readAsDataURL(input.files[0]);
+    // }
+}
+
+
+
+
     $( "textarea.Ask" ).focusin(function() {
         // $(this).parent('div').parent('div').css('background','white');
         
